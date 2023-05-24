@@ -7,5 +7,17 @@
   width: 200px;
   height: 200px;
   background-color: #76ff826b;
+  margin: 0 auto;
 }
 
+.fade-in{
+  animation: fadeIn 4s ease 0s 1 normal;
+}
+
+.fade-out{
+  animation: fadeOut 4s ease 0s 1 normal; 
+}
+
+.spin{
+  animation: spin 4s liner infinite;
+}
