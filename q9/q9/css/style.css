@@ -21,3 +21,12 @@
 .spin{
   animation: spin 4s liner infinite;
 }
+
+@keyframes fade-in{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
