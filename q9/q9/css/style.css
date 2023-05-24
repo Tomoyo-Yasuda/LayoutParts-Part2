@@ -15,6 +15,7 @@
   height: 200px;
   background-color: #331aefd0;
   margin: 0 auto;
+  transition: 0.5s;
 }
 
 .fade-in{
@@ -56,3 +57,12 @@
     transform: rotate(360deg);
   }
 }
+
+.pink-color:hover{
+  background-color: #ff27e2c9;
+}
+
+.rotate-box:hover{
+  transform: rotate(360deg);
+}
+
