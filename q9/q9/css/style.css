@@ -10,16 +10,23 @@
   margin: 0 auto;
 }
 
+.violet-box{
+  width: 200px;
+  height: 200px;
+  background-color: #331aefd0;
+  margin: 0 auto;
+}
+
 .fade-in{
   animation: fadeIn 4s ease 0s 1 normal;
 }
 
 .fade-out{
-  animation: fadeOut 4s ease 0s 1 normal; 
+  animation: fadeOut 4s ease 4s 1 normal; 
 }
 
 .spin{
-  animation: spin 4s liner infinite;
+  animation: spin 4s linear infinite;
 }
 
 @keyframes fadeIn{
@@ -34,7 +41,18 @@
   0%{
     opacity: 1
   }
+
   100%{
     opacity: 0
+  }
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
   }
 }
