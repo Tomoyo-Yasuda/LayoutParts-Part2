@@ -67,5 +67,9 @@
 }
 
 .up-slide:hover{
-  transform: translate(0 -20%);
+  transform: translate(0, -20%);
+}
+
+.right-slide{
+  transform: translate()
 }
