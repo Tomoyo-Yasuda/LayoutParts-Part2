@@ -70,6 +70,22 @@
   transform: translate(0, -20%);
 }
 
-.right-slide{
-  transform: translate()
+.right-slide:hover{
+  transform: translate(20%,0);
+}
+
+.height-extend:hover{
+  height: 300px;
+}
+
+.width-extend:hover{
+  width: 500px;
+}
+
+.border-box{
+  box-sizing: border-box;
+}
+
+.border-box:hover{
+  border: 10px #00ffe5 solid;
 }
