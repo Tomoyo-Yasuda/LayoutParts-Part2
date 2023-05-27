@@ -103,3 +103,23 @@
   border-top:solid 10px #14ff4bcd;
   animation: spin 1.1s linear infinite;
 }
+
+.card-lis{
+  margin: 0 auto;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  list-style: none;
+  
+}
+
+.icon{
+  background-image: url(https://picsum.photos/id/1005/200/300 );
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
