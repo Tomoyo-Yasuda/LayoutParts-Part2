@@ -7,7 +7,7 @@
 
 .button-box{
   margin-right: 30px;
-  padding: 15px;
+  padding:0 15px;
   border-radius: 10px;
   cursor: pointer;
   line-height: 50px;
@@ -31,4 +31,39 @@
 .green-box{
   color: #000;
   background-color: #0ffd0fd9;
+}
+.red-shadow{
+  color:#fff;
+  background-color: #fd0f0fd9;
+  box-shadow:0px 5px 0 rgba(63,5,5,0.851);
+}
+
+.blue-shadow{
+  color: #fff;
+  background-color: #170ffdd9;
+  box-shadow: 0px 5px 0px rgba(5,13,63,0.851); 
+}
+
+.green-shadow{
+  color: #000;
+  background-color: #0ffd0fd9;
+  box-shadow: 0px 5px 0px rgba(5,63,5,0.851);
+}
+
+.red-push{
+  color:#fff;
+  background-color: #fd0f0fd9;
+  box-shadow:0px 5px 0 rgba(63,5,5,0.851);
+}
+
+.blue-push{
+  color: #fff;
+  background-color: #170ffdd9;
+  box-shadow: 0px 5px 0px rgba(5,13,63,0.851); 
+}
+
+.green-push{
+  color: #000;
+  background-color: #0ffd0fd9;
+  box-shadow: 0px 5px 0px rgba(5,63,5,0.851);
 }
