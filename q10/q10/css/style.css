@@ -1,1 +1,34 @@
 @charset "UTF-8";
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.button-box{
+  margin-right: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  line-height: 50px;
+  display: inline-block;
+}
+
+.button-box:last-child{
+  margin-right: 0;
+}
+
+.red-box{
+  color:#fff;
+  background-color: #fd0f0fd9;
+}
+
+.blue-box{
+  color: #fff;
+  background-color: #170ffdd9;
+}
+
+.green-box{
+  color: #000;
+  background-color: #0ffd0fd9;
+}
