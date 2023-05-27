@@ -81,6 +81,7 @@
 
 .line-change:hover{
   background-color: #fffbef;
+  transition: 0.5s;
 }
 
 .dot-change{
@@ -89,5 +90,18 @@
 }
 
 .dot-change:hover{
-  border: 5px dotted #75caff;
+  border-style: dashed;
+  transition: 0.5s;
+}
+
+.double-change{
+  color: #0079a5f8;
+  background-color: #d0edfff8;
+  border: 4px dashed #67c5ff;
+}
+
+.double-change:hover{
+  color:  #67c5ff;
+  background-color: #ffffff;
+  transition: 0.5s;
 }
