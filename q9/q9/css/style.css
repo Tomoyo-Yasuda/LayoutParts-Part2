@@ -89,3 +89,7 @@
 .border-box:hover{
   border: 10px #00ffe5 solid;
 }
+
+.shadow-box:hover{
+  box-shadow: 8px 11px 10px 3px #06031ed0;
+}
