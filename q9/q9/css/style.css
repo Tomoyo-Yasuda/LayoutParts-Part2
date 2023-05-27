@@ -112,9 +112,27 @@ ul{
   display: flex;
 }
 
-li{
+.sample-item{
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  border-left: 0;
   list-style: none;
-  
+}
+
+.sample-item:first-child{
+  border-left: 1px solid #000000;
+}
+
+.sample-item:hover{
+  box-shadow:0px 0px 10px 3px #424242d0;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+p{
+  margin-top: 20px;
 }
 
 .icon{
@@ -122,4 +140,5 @@ li{
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin: 0 auto;
 }
