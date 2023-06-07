@@ -141,5 +141,7 @@ p{
   height: 150px;
   border-radius: 50%;
   margin: 0 auto;
-  text-align: center;
+  background-image: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
