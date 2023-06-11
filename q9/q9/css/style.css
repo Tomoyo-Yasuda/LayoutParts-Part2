@@ -103,8 +103,13 @@
   border-top:solid 10px #14ff4bcd;
   animation: spin 1.1s linear infinite;
 }
+/* 半回転 */
+/* @keyframes spin{
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(180deg); }
+} */
 
-.card-lis{
+.card-list{
   margin: 0 auto;
 }
 
